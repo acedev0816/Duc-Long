@@ -11,9 +11,9 @@ const ResumeCard = () => {
       items: [
         {
           id: 1,
-          date: "2012-2016",
-          title: "Bachelor of Engineering - BE",
-          place: "The University of Hong Kong",
+          date: "2016-2020",
+          title: "Bachelor of Computer Science",
+          place: "Hanoi University of Science",
           bg: "#FFF4F4",
         },
       ],
@@ -23,28 +23,22 @@ const ResumeCard = () => {
       icon: <MdOutlineSchool />,
       items: [
         {
-          date: "JAN 2017 - DEC 2019",
-          title: "Software Developer",
-          place: "WeDigitify",
+          date: "JAN 2023 - SEP 2024",
+          title: "Lead Full-Stack Developer",
+          place: "Muchbetter AI",
           bg: "#F2F4FF",
         },
         {
-          date: "JAN 2020 - DEC 2021",
-          title: "Backend Developer",
-          place: "Infosys",
-          bg: "#EEF5FA",
+          date: "MAY 2020 - OCT 2022",
+          title: "Full-Stack Blockchain Developer",
+          place: "GemPad",
+          bg: "#F2F4FF",
         },
         {
-          date: "JAN 2022 - OCT 2023",
+          date: "JAN 2018 - DEC 2019",
           title: "Full Stack Developer",
           place: "Educative",
           bg: "#F2F4FF",
-        },
-        {
-          date: "NOV 2023 - Present",
-          title: "Senior Software Engineer",
-          place: "Self Employed",
-          bg: "#EEF5FA",
         },
       ],
     }

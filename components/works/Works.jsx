@@ -22,47 +22,76 @@ const Works = () => {
   const portfolioData = [
     {
       id: 1,
-      img: '/images/work_images/educative.jpg',
-      imgSmall: '/images/work_images/educative.jpg',
-      tag: 'Educative',
-      title: 'Interactive Learning Platform',
-      description: 'A dynamic and interactive learning platform designed to deliver coding education and technical skill-building through hands-on coding environments. The platform allows users to learn and practice coding directly in the browser with no setup required, offering a variety of courses ranging from beginner to advanced levels.',
-      link: 'https://www.educative.io/',
-      linkText: 'educative.io',
-      langages: 'Node.js React.js AWS'
+      img: "/images/work_images/muchbetter.png",
+      imgSmall: "/images/work_images/muchbetter.png",
+      tag: "Muchbetter AI",
+      title: "AI-based training system for salespeople",
+      description:
+        "This is a training system for salespeople that offers simulations with AI-generated clients to enhance the training experience and improve sales performance. The system uses ChatGPT to simulate AI-powered clients and evaluate the salespeople based on their conversations with these virtual clients. It also helps salespeople practice adapting to various client contexts, needs, and personalities, as well as meet specific evaluation criteria. The system allows for the creation of custom clients, sales scenarios, evaluation stages, and criteria, enabling salespeople to train in a highly detailed and adaptive environment.",
+      link: "https://www.muchbetter.ai/",
+      linkText: "muchbetter.ai",
+      langages:
+        "Next.js, Material Ui, FastAPI, ChatGPT, PostgreSQL, Redis, Azure",
     },
     {
       id: 2,
-      img: '/images/work_images/kryptomon.png',
-      imgSmall: '/images/work_images/kryptomon.png',
-      tag: 'Kryptomon',
-      title: 'Blockchain-Based Gaming Platform',
-      description: 'A blockchain-based gaming platform where players can collect, train, and battle digital creatures called Kryptomons. Combining elements of Pokémon-style gameplay with blockchain technology, the platform offers an immersive experience where players can own, trade, and breed unique creatures, each with its own set of attributes and abilities. The game leverages NFTs (Non-Fungible Tokens) to ensure that each Kryptomon is one-of-a-kind and securely owned by the player.',
-      link: 'https://www.kryptomon.co/',
-      linkText: 'kryptomon.co',
-      langages: 'Express.js React.js MongoDB'
+      img: "/images/work_images/gempad.png",
+      imgSmall: "/images/work_images/gempad.png",
+      tag: "GemPad",
+      title: "Multi-chain decentralized lauchpad",
+      description:
+        "Gempad stands as a premier multi-chain decentralized launchpad and crowdfund, offering a cutting-edge platform for user and project owners to initiate their project and tokens. Leveraging the capabilities inherent in ETH Diamond standard (EIP-2535), Gempad delivers a highly optimized decentralized application, positioning itself as a leader within the Web3 ecosystem.",
+      link: "https://www.educative.io/",
+      linkText: "educative.io",
+      langages: "Node.js React.js AWS",
     },
     {
       id: 3,
-      img: '/images/work_images/rallypoint.jpg',
-      imgSmall: '/images/work_images/rallypoint.jpg',
-      tag: 'Rallypoint',
-      title: 'Military Networking Platform',
-      description: 'A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.',
-      link: 'https://www.rallypoint.com/',
-      linkText: 'rallypoint.com',
-      langages: 'Node.js'
+      img: "/images/work_images/educative.jpg",
+      imgSmall: "/images/work_images/educative.jpg",
+      tag: "Educative",
+      title: "Interactive Learning Platform",
+      description:
+        "A dynamic and interactive learning platform designed to deliver coding education and technical skill-building through hands-on coding environments. The platform allows users to learn and practice coding directly in the browser with no setup required, offering a variety of courses ranging from beginner to advanced levels.",
+      link: "https://www.educative.io/",
+      linkText: "educative.io",
+      langages: "Node.js React.js AWS",
     },
     {
       id: 4,
-      img: '/images/work_images/consent2share.png',
-      imgSmall: '/images/work_images/consent2share.png',
-      tag: 'Consent2Share',
-      title: 'Healthcare Data Consent Management Platform',
-      description: 'A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.',
+      img: "/images/work_images/kryptomon.png",
+      imgSmall: "/images/work_images/kryptomon.png",
+      tag: "Kryptomon",
+      title: "Blockchain-Based Gaming Platform",
+      description:
+        "A blockchain-based gaming platform where players can collect, train, and battle digital creatures called Kryptomons. Combining elements of Pokémon-style gameplay with blockchain technology, the platform offers an immersive experience where players can own, trade, and breed unique creatures, each with its own set of attributes and abilities. The game leverages NFTs (Non-Fungible Tokens) to ensure that each Kryptomon is one-of-a-kind and securely owned by the player.",
+      link: "https://www.kryptomon.co/",
+      linkText: "kryptomon.co",
+      langages: "Express.js React.js MongoDB",
+    },
+    {
+      id: 5,
+      img: "/images/work_images/rallypoint.jpg",
+      imgSmall: "/images/work_images/rallypoint.jpg",
+      tag: "Rallypoint",
+      title: "Military Networking Platform",
+      description:
+        "A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.",
+      link: "https://www.rallypoint.com/",
+      linkText: "rallypoint.com",
+      langages: "Node.js",
+    },
+    {
+      id: 6,
+      img: "/images/work_images/consent2share.png",
+      imgSmall: "/images/work_images/consent2share.png",
+      tag: "Consent2Share",
+      title: "Healthcare Data Consent Management Platform",
+      description:
+        "A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.",
       // link: 'https://www.okmis.info/',
       // linkText: 'okmis.info',
-      langages: 'Node.js'
+      langages: "Node.js",
     },
   ];
 
@@ -87,7 +116,11 @@ const Works = () => {
           <div
             className="rounded-lg p-6 dark:border-[2px] border-[#212425]"
             style={{
-              background: `${theme === "dark" || theme === undefined ? "transparent" : item?.bg}`,
+              background: `${
+                theme === "dark" || theme === undefined
+                  ? "transparent"
+                  : item?.bg
+              }`,
             }}
             key={item.id}
             onClick={() => handleModle(item?.id)}
@@ -127,21 +160,15 @@ const Works = () => {
               {singleData.tag} Project
             </h2>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 mt-6">
               <div className="space-y-2">
                 <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                   <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
                   Project :&nbsp; <span className="font-medium "> Website</span>
                 </p>
-                <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
-                  <FiCode className="text-lg mr-2 hidden sm:block " />
-                  Framework :&nbsp;
-                  <span className="font-medium ">{singleData?.langages}</span>
-                </p>
               </div>
 
               <div className="space-y-2">
-
                 <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                   <FiExternalLink className="text-lg mr-2 hidden sm:block" />
                   Preview :&nbsp;
@@ -170,8 +197,13 @@ const Works = () => {
                 </p> */}
               </div>
             </div>
+            <p className="dark:text-white flex items-center text-[15px] sm:text-lg">
+              <FiCode className="text-lg mr-2 hidden sm:block " />
+              Framework :&nbsp;
+              <span className="font-medium ">{singleData?.langages}</span>
+            </p>
 
-            <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">
+            <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm mt-2">
               {singleData?.description}
             </p>
 

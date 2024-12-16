@@ -12,6 +12,27 @@ const Skills = () => {
           title: "Languages",
           icon: <MdOutlineLanguage />,
           items: [
+          
+            {
+              img: "/images/frameworks/javascript.png",
+              alt: "javascript",
+              link: "https://en.wikipedia.org/wiki/JavaScript",
+            },
+            {
+              img: "/images/frameworks/typescript.png",
+              alt: "typescript",
+              link: "https://www.typescriptlang.org/",
+            },
+            {
+              img: "/images/frameworks/python.png",
+              alt: "python",
+              link: "https://www.python.org/",
+            },
+            {
+              img: "/images/frameworks/c-sharp.png",
+              alt: "c#",
+              link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+            },
             {
               img: "/images/frameworks/html.png",
               alt: "html",
@@ -23,21 +44,6 @@ const Skills = () => {
               link: "https://en.wikipedia.org/wiki/CSS",
             },
             {
-              img: "/images/frameworks/javascript.png",
-              alt: "javascript",
-              link: "https://en.wikipedia.org/wiki/JavaScript",
-            },
-            {
-              img: "/images/frameworks/typescript.png",
-              alt: "typescript",
-              link: "https://www.typescriptlang.org/",
-            },
-            // {
-            //   img: "/images/frameworks/c-sharp.png",
-            //   alt: "c#",
-            //   link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
-            // },
-            {
               img: "/images/frameworks/sql.png",
               alt: "sql",
               link: "https://en.wikipedia.org/wiki/SQL",
@@ -47,11 +53,6 @@ const Skills = () => {
               alt: "sql",
               link: "https://graphql.org/",
             },
-            // {
-            //   img: "/images/frameworks/python.png",
-            //   alt: "python",
-            //   link: "https://www.python.org/",
-            // },
           ],
           bg: "#FCF4FF",
         },
@@ -84,11 +85,11 @@ const Skills = () => {
               alt: "angular",
               link: "https://angular.io/",
             },
-            // {
-            //   img: "/images/frameworks/net.png",
-            //   alt: "net",
-            //   link: "https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet",
-            // },
+            {
+              img: "/images/frameworks/fastapi.png",
+              alt: "fastapi",
+              link: "https://fastapi.tiangolo.com/",
+            },
             {
               img: "/images/frameworks/tailwind.png",
               alt: "tailwind",
@@ -99,16 +100,16 @@ const Skills = () => {
               alt: "prisma",
               link: "https://www.prisma.io/",
             },
-            {
-              img: "/images/frameworks/nextauth.png",
-              alt: "next-auth",
-              link: "https://next-auth.js.org/",
-            },
-            {
-              img: "/images/frameworks/trpc.svg",
-              alt: "trpc",
-              link: "https://trpc.io/",
-            },
+            // {
+            //   img: "/images/frameworks/nextauth.png",
+            //   alt: "next-auth",
+            //   link: "https://next-auth.js.org/",
+            // },
+            // {
+            //   img: "/images/frameworks/trpc.svg",
+            //   alt: "trpc",
+            //   link: "https://trpc.io/",
+            // },
             // {
             //   img: "/images/frameworks/blazor.png",
             //   alt: "blazor",
