@@ -21,6 +21,19 @@ const Works = () => {
 
   const portfolioData = [
     {
+      id: 0,
+      img: "/images/work_images/ecobased.png",
+      imgSmall: "/images/work_images/ecobased.png",
+      tag: "Ecobased AI",
+      title: "AI-supported asset tokenization platform",
+      description:
+        "This is an AI-powered asset tokenization platform built on Polygon. It enables regenerative projects to tokenize, launch, and trade assets on the platform. By leveraging Web3, AI, and climate technologies, it accelerates the transition to a regenerative impact economy. The platform simplifies impact investing by democratizing access to natural capital markets and utilizing AI. Key features include a launch pad, marketplace, and asset tokenization. It uses Chainlink’s POR protocol to connect real asset data to the blockchain. ",
+      link: "https://www.muchbetter.ai/",
+      linkText: "muchbetter.ai",
+      langages:
+        "Next.js, Tailwind CSS, Daisy UI, ExpressJs, Solidity, MongoDB, ChatGPT",
+    },
+    {
       id: 1,
       img: "/images/work_images/muchbetter.png",
       imgSmall: "/images/work_images/muchbetter.png",
@@ -41,12 +54,24 @@ const Works = () => {
       title: "Multi-chain decentralized lauchpad",
       description:
         "Gempad stands as a premier multi-chain decentralized launchpad and crowdfund, offering a cutting-edge platform for user and project owners to initiate their project and tokens. Leveraging the capabilities inherent in ETH Diamond standard (EIP-2535), Gempad delivers a highly optimized decentralized application, positioning itself as a leader within the Web3 ecosystem.",
-      link: "https://www.educative.io/",
-      linkText: "educative.io",
-      langages: "Node.js React.js AWS",
+      link: "https://www.gempad.app/",
+      linkText: "educative.app",
+      langages: "Next.js, Material-Ui, Solidity, ExpressJs, MongoDB, Web3",
     },
     {
       id: 3,
+      img: "/images/work_images/sewer.png",
+      imgSmall: "/images/work_images/sewer.png",
+      tag: "SewerRatSocialClub",
+      title: "Blockchain-based NFT DAO",
+      description:
+        "Sewer Rats are digital collectibles living on the Ethereum Blockchain. Each randomly generated from 188 unique hand-drawn properties. Smart contract ensures no more than 8888 rats will ever exists. Each rat is minted as ERC-721 token and their metadata is stored on IPFS. $CHIZ is real ERC20 token - the official currency of social club. $CHIZ can be u sed to obtain NFTs, exclusive merge drops, raffle tickets to raffle and more other things. Ownership of a sewer rat grants the holder access to the DAO.",
+      link: "https://www.sewerratsocial.club/",
+      linkText: "sewerratsocial.club",
+      langages: "Next.js, Material-Ui, Solidity, ExpressJs, MongoDB, Web3",
+    },
+    {
+      id: 4,
       img: "/images/work_images/educative.jpg",
       imgSmall: "/images/work_images/educative.jpg",
       tag: "Educative",
@@ -58,7 +83,7 @@ const Works = () => {
       langages: "Node.js React.js AWS",
     },
     {
-      id: 4,
+      id: 5,
       img: "/images/work_images/kryptomon.png",
       imgSmall: "/images/work_images/kryptomon.png",
       tag: "Kryptomon",
@@ -70,7 +95,7 @@ const Works = () => {
       langages: "Express.js React.js MongoDB",
     },
     {
-      id: 5,
+      id: 6,
       img: "/images/work_images/rallypoint.jpg",
       imgSmall: "/images/work_images/rallypoint.jpg",
       tag: "Rallypoint",
