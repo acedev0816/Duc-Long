@@ -107,7 +107,7 @@ const Works = () => {
       langages: "Node.js",
     },
     {
-      id: 6,
+      id: 7,
       img: "/images/work_images/consent2share.png",
       imgSmall: "/images/work_images/consent2share.png",
       tag: "Consent2Share",
